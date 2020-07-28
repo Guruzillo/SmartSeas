@@ -1,0 +1,223 @@
+﻿Version     0.0
+Platform    uLCD-35DT-L
+PlatRes     320x480
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+GSlider
+    Name                         Slider2
+    Alias                        Slider2
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    BorderColor                  DARKGREEN
+    BorderWidth                  1
+    Color                        BLACK
+    Height                       60
+    Left                         48
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Horizontal
+    Palette.High                 LIME
+    Palette.Low                  BLACK
+    Spacing                      10
+    SolidFill                    Yes
+    TickWidth                    10
+    Top                          167
+    Width                        300
+    OnChanged                    'Report Message'
+    OnChanging                   Tank0Set
+end
+GSlider
+    Name                         Slider1
+    Alias                        Slider1
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    BorderColor                  MAROON
+    BorderWidth                  1
+    Color                        BLACK
+    Height                       60
+    Left                         48
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Horizontal
+    Palette.High                 RED
+    Palette.Low                  BLACK
+    Spacing                      10
+    SolidFill                    Yes
+    TickWidth                    10
+    Top                          88
+    Width                        300
+    OnChanged                    'Report Message'
+    OnChanging                   Tank0Set
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    AutoSize                     Yes
+    Caption                      'Pulse Width Modulation Demo'
+    Color                        BLACK
+    Font.Color                   YELLOW
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    20
+    Font.Style                   [Bold]
+    Height                       38
+    Left                         36
+    Top                          20
+    Transparent                  Yes
+    Width                        418
+    WordWrap                     Yes
+end
+LedDigits
+    Name                         Leddigits1
+    Alias                        Leddigits1
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       60
+    LeadingZero                  Yes
+    Left                         368
+    OutlineColor                 BLACK
+    Palette.High                 RED
+    Palette.Low                  BLACK
+    Top                          88
+    Width                        93
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits2
+    Alias                        Leddigits2
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       60
+    LeadingZero                  Yes
+    Left                         368
+    OutlineColor                 BLACK
+    Palette.High                 LIME
+    Palette.Low                  BLACK
+    Top                          167
+    Width                        93
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits3
+    Alias                        Leddigits3
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       60
+    LeadingZero                  Yes
+    Left                         368
+    OutlineColor                 BLACK
+    Palette.High                 DODGERBLUE
+    Palette.Low                  BLACK
+    Top                          248
+    Width                        93
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+GSlider
+    Name                         Slider3
+    Alias                        Slider3
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    BorderColor                  DARKBLUE
+    BorderWidth                  1
+    Color                        BLACK
+    Height                       60
+    Left                         48
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Horizontal
+    Palette.High                 DODGERBLUE
+    Palette.Low                  BLACK
+    Spacing                      10
+    SolidFill                    Yes
+    TickWidth                    10
+    Top                          248
+    Width                        300
+    OnChanged                    'Report Message'
+    OnChanging                   Tank0Set
+end

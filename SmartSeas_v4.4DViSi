@@ -1,0 +1,265 @@
+﻿Version     0.0
+Platform    Gen4-uLCD-50DCT-CLB-L
+PlatRes     480x800
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    DestBank                     0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+    MaxString                    75
+    ComPort                      0
+    ComTX1pinIdx                 0
+    ComRX1pinIdx                 0
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        0xF5F5F5
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton1
+    Alias                        Userbutton1
+    Height                       81
+    Images                       btnGeneralSwitches.PNG
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        402
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton3
+    Alias                        Userbutton3
+    Height                       81
+    Images                       btnPumps.PNG
+    Left                         408
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          0
+    Width                        390
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton1
+    Alias                        4Dbutton1
+    Height                       128
+    Left                         68
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          128
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton2
+    Alias                        4Dbutton2
+    Height                       128
+    Left                         240
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          128
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton3
+    Alias                        4Dbutton3
+    Height                       128
+    Left                         400
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          128
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton4
+    Alias                        4Dbutton4
+    Height                       128
+    Left                         568
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          128
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton5
+    Alias                        4Dbutton5
+    Height                       128
+    Left                         76
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          324
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton6
+    Alias                        4Dbutton6
+    Height                       128
+    Left                         240
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          320
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton7
+    Alias                        4Dbutton7
+    Height                       128
+    Left                         400
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          320
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton8
+    Alias                        4Dbutton8
+    Height                       128
+    Left                         572
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Yellow
+    Top                          320
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+Form
+    Name                         Form2
+    Alias                        Form2
+    Bgtype                       Color
+    Color                        0xFAFAFA
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton2
+    Alias                        Userbutton2
+    Height                       81
+    Images                       btnGeneralSwitches.PNG
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        402
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton4
+    Alias                        Userbutton4
+    Height                       81
+    Images                       btnPumps.PNG
+    Left                         408
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          0
+    Width                        390
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton9
+    Alias                        4Dbutton9
+    Height                       128
+    Left                         68
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Green
+    Top                          128
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton10
+    Alias                        4Dbutton10
+    Height                       128
+    Left                         248
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         Scaled
+    Style                        Green
+    Top                          128
+    Type                         Rocker01
+    Width                        148
+    OnChanged                    ''
+end
+Form
+    Name                         Form3
+    Alias                        Form3
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end

@@ -1,0 +1,1146 @@
+﻿Version     0.0
+Platform    Gen4-uLCD-50DCT-CLB-P
+PlatRes     480x800
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+end
+Form
+    Name                         homeForm
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        'Office 2003 (Silver)'
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Title
+    Alias                        Statictext1
+    AutoSize                     Yes
+    Caption                      'PLANS FOR TODAY'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    36
+    Font.Style                   []
+    Height                       47
+    Left                         52
+    Top                          12
+    Transparent                  Yes
+    Width                        381
+    WordWrap                     Yes
+end
+Strings
+    Name                         Plans
+    Alias                        Strings1
+    Alignment                    Left
+    BGcolor                      'Office 2003 (Silver)'
+    Height                       532
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Sony Sketch EF'
+    Font.Opaque                  Yes
+    Font.Size                    35
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         196
+    Strings                      '08/30/2016\n\nNO PLANS FOR TODAY\n'
+    StringsStyle                 Book
+    Top                          92
+    Width                        241
+    OnChanged                    ''
+end
+WinButton
+    Name                         NewPlan
+    Alias                        New
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x4D391C
+    Caption                      NEW
+    Color                        STEELBLUE
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    28
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         16
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          104
+    Width                        150
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Border
+    Name                         Border1
+    Alias                        Border1
+    Height                       566
+    HighlightColor               'Office 2007 (Luna)'
+    Left                         180
+    ShadowColor                  'Office 2007 (Obsidian)'
+    Shape                        Frame
+    Style                        Raised
+    Top                          76
+    Width                        272
+end
+UserImages
+    Name                         4dlogo
+    Alias                        logo
+    Height                       104
+    Images                       4D_web_logo.png
+    Left                         36
+    Stretch                      No
+    Top                          644
+    Width                        400
+    OnChanged                    ''
+end
+WinButton
+    Name                         CancelPlan
+    Alias                        Cancel
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x120F3C
+    Caption                      CANCEL
+    Color                        BROWN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    28
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         16
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          512
+    Width                        150
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         CopyPlan
+    Alias                        Copy
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x005E5F
+    Caption                      COPY
+    Color                        YELLOW
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    28
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         16
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          240
+    Width                        150
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         ReschedPlan
+    Alias                        Resched
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x4B002F
+    Caption                      MOVE
+    Color                        INDIGO
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    28
+    Font.Style                   [Bold]
+    Height                       100
+    Left                         16
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          376
+    Width                        150
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Form
+    Name                         editPage
+    Alias                        Form2
+    Bgtype                       Color
+    Color                        'Office 2003 (Silver)'
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Keyboard
+    Name                         alphanum
+    Alias                        Keyboard1
+    AutoCapsDisplay              Yes
+    Fill                         (Default)
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       300
+    HighlightCaps                BLACK
+    KeyboardType                 ktQWERTY
+    KeyDistance                  0
+    Left                         0
+    SmallFont.Color              BLACK
+    SmallFont.Effects            []
+    SmallFont.Name               Tahoma
+    SmallFont.Size               14
+    SmallFont.Style              []
+    Top                          500
+    Width                        480
+    OnChanged                    ''
+end
+Keyboard
+    Name                         numeric
+    Alias                        numeric
+    AutoCapsDisplay              Yes
+    Fill                         (Default)
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    26
+    Font.Style                   [Bold]
+    Height                       300
+    HighlightCaps                BLACK
+    KeyboardType                 KB1
+    KeyDistance                  0
+    Left                         0
+    SmallFont.Color              BLACK
+    SmallFont.Effects            []
+    SmallFont.Name               'Sony Sketch EF'
+    SmallFont.Size               26
+    SmallFont.Style              [Bold]
+    Top                          500
+    Width                        480
+    OnChanged                    ''
+end
+UserImages
+    Name                         4dlogo1
+    Alias                        4dlogo1
+    Height                       104
+    Images                       4D_web_logo.png
+    Left                         36
+    Stretch                      No
+    Top                          36
+    Width                        400
+    OnChanged                    ''
+end
+Strings
+    Name                         editor
+    Alias                        editor
+    Alignment                    Left
+    BGcolor                      'Office 2003 (Silver)'
+    Height                       209
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Sony Sketch EF'
+    Font.Opaque                  Yes
+    Font.Size                    23
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         32
+    Strings                      ''
+    StringsStyle                 Book
+    Top                          264
+    Width                        412
+    OnChanged                    ''
+end
+WinButton
+    Name                         deletePlan
+    Alias                        Winbutton1
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x293F17
+    Caption                      DELETE
+    Color                        MEDIUMSEAGREEN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    24
+    Font.Style                   [Bold,Italic]
+    Height                       60
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          176
+    Width                        123
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Border
+    Name                         Border2
+    Alias                        Border2
+    Height                       224
+    HighlightColor               'Office 2007 (Luna)'
+    Left                         24
+    ShadowColor                  'Office 2007 (Obsidian)'
+    Shape                        Frame
+    Style                        Raised
+    Top                          256
+    Width                        431
+end
+WinButton
+    Name                         addTodo
+    Alias                        addTodo
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x580000
+    Caption                      ADD
+    Color                        BLUE
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    24
+    Font.Style                   [Bold,Italic]
+    Height                       60
+    Left                         176
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          176
+    Width                        123
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         savePlans
+    Alias                        Winbutton2
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x142242
+    Caption                      SAVE
+    Color                        SIENNA
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    24
+    Font.Style                   [Bold,Italic]
+    Height                       60
+    Left                         324
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          176
+    Width                        123
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Form
+    Name                         setForm
+    Alias                        'Set Date and Time'
+    Bgtype                       Color
+    Color                        'Office 2003 (Silver)'
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserImages
+    Name                         4dlogo2
+    Alias                        Userimages1
+    Height                       104
+    Images                       4D_web_logo.png
+    Left                         36
+    Stretch                      No
+    Top                          36
+    Width                        400
+    OnChanged                    ''
+end
+LedDigits
+    Name                         month
+    Alias                        Leddigits1
+    Color                        'Office 2003 (Silver)'
+    Decimals                     0
+    Digits                       2
+    Height                       74
+    LeadingZero                  Yes
+    Left                         96
+    OutlineColor                 'Office 2003 (Silver)'
+    Palette.High                 LIME
+    Palette.Low                  'Office 2003 (Silver)'
+    Top                          240
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         day
+    Alias                        Leddigits2
+    Color                        'Office 2003 (Silver)'
+    Decimals                     0
+    Digits                       2
+    Height                       74
+    LeadingZero                  Yes
+    Left                         296
+    OutlineColor                 'Office 2003 (Silver)'
+    Palette.High                 YELLOW
+    Palette.Low                  'Office 2003 (Silver)'
+    Top                          240
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         year
+    Alias                        Leddigits3
+    Color                        'Office 2003 (Silver)'
+    Decimals                     0
+    Digits                       4
+    Height                       74
+    LeadingZero                  Yes
+    Left                         148
+    OutlineColor                 'Office 2003 (Silver)'
+    Palette.High                 WHITE
+    Palette.Low                  'Office 2003 (Silver)'
+    Top                          432
+    Width                        192
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         hours
+    Alias                        Leddigits4
+    Color                        'Office 2003 (Silver)'
+    Decimals                     0
+    Digits                       2
+    Height                       74
+    LeadingZero                  Yes
+    Left                         96
+    OutlineColor                 'Office 2003 (Silver)'
+    Palette.High                 AQUA
+    Palette.Low                  'Office 2003 (Silver)'
+    Top                          612
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         minutes
+    Alias                        Leddigits5
+    Color                        'Office 2003 (Silver)'
+    Decimals                     0
+    Digits                       2
+    Height                       74
+    LeadingZero                  Yes
+    Left                         296
+    OutlineColor                 'Office 2003 (Silver)'
+    Palette.High                 0x5383FF
+    Palette.Low                  'Office 2003 (Silver)'
+    Top                          612
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         monthUp
+    Alias                        monthUp
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x003400
+    Caption                      ˄\nMONTH
+    Color                        GREEN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         93
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          172
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         monthDown
+    Alias                        monthDown
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x003400
+    Caption                      MONTH\nV
+    Color                        GREEN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         93
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          328
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         dayUp
+    Alias                        dayUp
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x004F50
+    Caption                      ˄\nDAY
+    Color                        YELLOW
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          172
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         dayDown
+    Alias                        dayDown
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x004F50
+    Caption                      DAY\nV
+    Color                        YELLOW
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          324
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         yearDown
+    Alias                        yearDown
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x2E0D06
+    Caption                      '< YEAR'
+    Color                        0xEB765D
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       74
+    Left                         21
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          432
+    Width                        106
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         yearUp
+    Alias                        yearUp
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x2E0D06
+    Caption                      'YEAR >'
+    Color                        0xEB765D
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       74
+    Left                         352
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          432
+    Width                        103
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         hourUp
+    Alias                        hourUp
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x494A00
+    Caption                      ˄\nHOUR
+    Color                        AQUA
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         93
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          540
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         hourDown
+    Alias                        hourDown
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x494A00
+    Caption                      HOUR\nV
+    Color                        AQUA
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         93
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          696
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         minsUp
+    Alias                        Winbutton3
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x00123E
+    Caption                      ˄\nMINS
+    Color                        ORANGERED
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          540
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         minsDown
+    Alias                        minsDown
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   0x00123E
+    Caption                      MINS\nV
+    Color                        ORANGERED
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    'Sony Sketch EF'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          696
+    Width                        96
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
